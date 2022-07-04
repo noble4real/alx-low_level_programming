@@ -7,16 +7,10 @@
  */
 int main(void)
 {
-int a;
-long int b;
-long long int c;
-char d;
-float f;
-
-printf("size of a char is=%i byte(s)\n", (unsigned long)sizeof(d));
-printf("size of an int is=%i byte(s)\n", (unsigned long)sizeof(a));
-printf("size of a long int is=%i byte(s)\n", (unsigned long)sizeof(b));
-printf("size of a long long int is=%i byte(s)\n", (unsigned long)sizeof(c));
-printf("size of a float is=%i byte(s)\n", (unsigned long)sizeof(f));
+printf("size of a char is=%i byte\n", sizeof(char));
+printf("size of an int is=%i byte\n", sizeof(int));
+printf("size of a long int is=%i byte\n", sizeof(long int));
+printf("size of a long long int is=%i byte\n", sizeof(long long int));
+printf("size of a float is=%i byte\n", sizeof(float));
 return (0);
 }
