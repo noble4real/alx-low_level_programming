@@ -1,6 +1,6 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include<stdlib.h>
+#include<time.h>
+#include<stdio.h>
 /**
  * nain - entry point
  *
@@ -19,7 +19,7 @@ printf("Last digit of %d is %d and is greater than 5\n", n, lastn);
 }
 else if (lastn == 0)
 {
-printf("Last digit of %d is %d and is 0\n", n, lasten);
+printf("Last digit of %d is %d and is 0\n", n, lastn);
 }
 else
 {
