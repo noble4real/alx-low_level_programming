@@ -6,5 +6,5 @@
  */
 int _isdigit(int c)
 {
-		reture (c >= '0' && c <= '9');
+		reture(c >= '0' && c <= '9');
 }
