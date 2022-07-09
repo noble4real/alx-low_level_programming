@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - entry point
  *
@@ -16,7 +15,7 @@ int main(void)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf(FizzBuzz ");
+			printf("FizzBuzz ");
 		}
 		else if (i % 3 == 0)
 		{
@@ -26,7 +25,8 @@ int main(void)
 		{
 			if (i < p)
 				printf("Buzz ");
-			else printf("Buzz);
+			else
+		 printf("Buzz");
 		}
 		else
 		{
