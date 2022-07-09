@@ -1,12 +1,12 @@
 #include "main.h"
 /**
  * print_triangle - check for a digit
- * @size : integer type
+ * @size: integer type
  * Return: void
  */
 void print_triangle(int size)
 {
-	int i = 1, 11;
+	int i = 1, ii;
 
 	while (i <= size && size > 0)
 	{
