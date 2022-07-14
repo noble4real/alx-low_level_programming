@@ -42,7 +42,7 @@ void print_buffer(char *b, int size)
 	for (j = i; j < i + 9 && j < size; j++)
 	{
 		if (b[j] >= 32 && b[j] <= 126)
-			printf("%c", b[j];
+			printf("%c", b[j]);
 					else
 					printf(".");
 	}
