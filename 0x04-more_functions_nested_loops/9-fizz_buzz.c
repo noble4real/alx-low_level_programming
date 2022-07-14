@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - prints the numbers from 1 to 100
  *
- * return: void
+ * return: prints the numbers from 1 to 100
  */
 
 int main(void)
