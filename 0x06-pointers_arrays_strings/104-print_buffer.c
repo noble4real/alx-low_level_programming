@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print_buffer - c function that print the content of an
+ * print_buffer - c function that prints the content of an
  * inputted number of bytes from a buffer.
  * print 10 bytes per line.
- * starts with the position of the first byte in hexadecimal (8 char),
+ * starts with the position of the first byte in hexadecimal (8 chars),
  * starting with '0'.
  * Each line shows the hexadecimal content (2 char) of the buffer,
  * 2 bytes at a time, separated by a space.
@@ -41,7 +41,7 @@ void print_buffer(char *b, int size)
 	}
 	for (j = i; j < i + 9 && j < size; j++)
 	{
-		if (b[j] >= 32b && b[j] <= 126)
+		if (b[j] >= 32 && b[j] <= 126)
 			printf("%c", b[j];
 					else
 					printf(".");
