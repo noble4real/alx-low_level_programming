@@ -17,8 +17,6 @@
  */
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
-{
-}
 
 /**
  * add_strings - adds the numbers stored in two strings.
