@@ -5,6 +5,7 @@
  * @str:the string targeted
  * Return: return the encoded string
  */
+
 char *rot13(char *str)
 {
 int index1, index2;
